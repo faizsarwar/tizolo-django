@@ -40,7 +40,7 @@ CORS_ALLOWED_ORIGINS=[
     "https://questgreens.com"
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com','https://*.127.0.0.1',"http://127.0.0.1:5500","https://tizolo.vercel.app/",'https://tizolo.vercel.app']
+CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com','https://*.127.0.0.1',"http://127.0.0.1:5500",'https://tizolo.vercel.app']
 
 CSRF_COOKIE_SECURE = False
 
